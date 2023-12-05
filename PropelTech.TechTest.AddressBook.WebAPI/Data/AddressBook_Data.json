@@ -1,0 +1,37 @@
+[
+  {
+    "first_name": "David",
+    "last_name": "Platt",
+    "phone": "01913478234",
+    "email": "david.platt@corrie.co.uk",
+    "Id": "{6B6BC0D1-953B-44F0-8C25-A69D920592D6}"
+  },
+  {
+    "first_name": "Jason",
+    "last_name": "Grimshaw",
+    "phone": "01913478123",
+    "email": "jason.grimshaw@corrie.co.uk",
+    "Id": "{1FAE6B5F-72CD-4EF3-A6FC-BE8971B4F5A0}"
+  },
+  {
+    "first_name": "Ken",
+    "last_name": "Barlow",
+    "phone": "019134784929",
+    "email": "ken.barlow@corrie.co.uk",
+    "Id": "{6DEF8A47-F659-4E0C-A8FD-FCE84C894142}"
+  },
+  {
+    "first_name": "Rita",
+    "last_name": "Sullivan",
+    "phone": "01913478555",
+    "email": "rita.sullivan@corrie.co.uk",
+    "Id": "{8B2753B5-140C-49B6-8481-0744E18DA057}"
+  },
+  {
+    "first_name": "Steve",
+    "last_name": "McDonald",
+    "phone": "01913478555",
+    "email": "steve.mcdonald@corrie.co.uk",
+    "Id": "{15E8E3AD-39F9-4FC3-BB5B-E7C130E22B0F}"
+  }
+]

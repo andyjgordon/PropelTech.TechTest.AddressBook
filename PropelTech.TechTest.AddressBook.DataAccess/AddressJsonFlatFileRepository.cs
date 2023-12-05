@@ -1,11 +1,13 @@
-﻿using PropelTech.TechTest.AddressBook.Types;
+﻿using Microsoft.Extensions.Options;
+using PropelTech.TechTest.AddressBook.Types;
+using PropelTech.TechTest.AddressBook.Types.Options;
 
 namespace PropelTech.TechTest.AddressBook.DataAccess;
 
 public class AddressJsonFlatFileRepository : JsonFlatFileRepository<AddressItem>
 {
-    public AddressJsonFlatFileRepository(string path) 
-        : base(path)
+    public AddressJsonFlatFileRepository(IOptions<DataOptions> options) 
+        : base(options.Value.AddressJsonFlatFilePath)
     {
     }
 
