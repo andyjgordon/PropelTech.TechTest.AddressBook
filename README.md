@@ -3,13 +3,14 @@ PropelTech.TechTest.AddressBook project contains the projects to cover Step 1 an
 
 ## Notes
 
-I initially planned to use this tech test to try out some .NET features I hadn't used before, hence choosing .NET 8.0, though I dont think in the final project there are any explicit .NET 8 features were used. I used the record type for the first time, and also use minimal api format for the WebAPI, which is something to discuss.
+I initially planned to use this tech test to try out some .NET features I hadn't used before, hence choosing .NET 8.0, though I dont think in the final project there are any explicit .NET 8 features were used. I used the record type for the first time, and also used minimal api format for the WebAPI, which is something to discuss.
 
 Overall I've tried to demonstrate examples of a few areas for further discussion:
 - Unit Testing - only tested the repository, did not test the api (which would be integration testing anyway ;)
 - Extendability - made the types and repository extendable to support future features
 - Error handling - used  Id not found to demonstrate a potential error and how to convert that to the relevant http status code. But plenty more exceptions could be handled.
 - Dependency Injection - used to pass in options to repo and in minimal api
+- Resource contention - added some retry logic while saving the JSON file, but this could be expanded and moved onto a seperate thread.
 
 ## Projects
 
